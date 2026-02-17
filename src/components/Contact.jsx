@@ -29,7 +29,8 @@ export default function Contact({ selectedService }) {
     
     // Reemplaza XXXXXXXXXX con tu número real
     window.open(
-      `https://wa.me{encodeURIComponent(text)}`,
+      https://wa.me/5493465445431
+,
       "_blank"
     );
   };
