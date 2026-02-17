@@ -29,9 +29,10 @@ export default function Contact({ selectedService }) {
     
     // Reemplaza XXXXXXXXXX con tu número real
     window.open(
-      `https://wa.me{encodeURIComponent(text)}`,
-      "_blank"
-    );
+  `https://wa.me/5493465445431?text=${encodeURIComponent(text)}`,
+  "_blank"
+);
+
   };
 
   return (
